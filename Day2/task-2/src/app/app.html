@@ -1,0 +1,64 @@
+<!-- <h1>Change Events</h1>
+
+<span>
+  <h2>{{num}}</h2></span>
+<br>
+
+
+
+<button (click)="Change(60)">Change</button> -->
+
+
+<app-student-list></app-student-list>
+
+<h2>Custom Pipes</h2>
+<h3>{{name}}</h3>
+<h3>{{name | capitalize}}</h3>
+
+
+<h1 *ngIf ="show">Direvtives</h1>
+
+<h2>Todo List</h2>
+<ul>
+  <li *ngFor="let x of Todo">{{x}}</li>
+</ul>
+
+<br>
+<h1>Student Data</h1>
+<ul *ngFor="let student of students">
+  <li>Name: {{student.name}}</li>
+  <li>Age: {{student.age}}</li>
+
+</ul>
+
+
+<br>
+
+<h1>Update Block</h1>
+<div *ngIf = "block == 0">
+  Heading 0
+  </div>
+<div *ngIf = "block == 1">
+  Heading 1
+</div>
+<div *ngIf = "block == 2">
+  Heading 2
+</div>
+<button (click) = "ChangeBlock()">Change Block</button>
+
+<br><br>
+<h2>Change Color</h2>
+
+<button (click) = "changeColor('red')">Red</button>
+<button (click) = "changeColor('blue')">Blue</button>
+<button (click) = "changeColor('green')">Green</button>
+
+<div [ngSwitch]="color">
+  <h1 *ngSwitchCase = "'red'" style = "background-color: red;">Red Color</h1>
+  <h2 *ngSwitchCase = "'blue'" style="background-color: blue;">Blue Color</h2>
+  <h3 *ngSwitchCase = "'green'" style="background-color: green;">Green Color</h3>
+  <div *ngSwitchDefault>Default Color</div>
+</div>
+
+<h1>Custom Pipes In Angular</h1>
+<h2>{{amount | currencyConvertor}}</h2>

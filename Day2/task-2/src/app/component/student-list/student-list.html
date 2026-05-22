@@ -1,0 +1,12 @@
+<h2>student-list</h2>
+
+<button (click) = "list = true" >Show List</button>
+<button (click) = "list = false">Hide List</button>
+
+<div *ngIf = "list">
+  <ul>
+    <li *ngFor="let student of students">
+      Name: {{student.name}}, Age: {{student.age}}
+    </li>
+  </ul>
+<div>
