@@ -1,0 +1,17 @@
+<h1>Registration Form</h1>
+
+<form (ngSubmit)="submitForm">
+    <label for="name">Name:</label>
+    <input type="text" name="name" [(ngModel)]="user.name" appHighlight>
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" [(ngModel)]="user.email" appHighlight>
+    <br><br>
+
+    <button type="submit" appHighlight>Submit</button>
+</form>
+
+<hr>
+<p>Name: {{user.name}}</p>
+<p>Email: {{user.email}}</p>
