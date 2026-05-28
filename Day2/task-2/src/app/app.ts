@@ -4,10 +4,12 @@ import { RouterOutlet } from '@angular/router';
 import { CurrencyConvertorPipe } from './pipe/currency-convertor-pipe';
 import { StudentList } from './component/student-list/student-list';
 import { CapitalizePipe } from './pipe/capitalize-pipe';
+import { FormsModule,NgModel} from '@angular/forms';
+
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet,NgIf,NgFor,NgSwitch,NgSwitchCase,NgSwitchDefault,CurrencyConvertorPipe,
-    StudentList,CapitalizePipe
+    StudentList,CapitalizePipe,FormsModule
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'
@@ -53,5 +55,6 @@ export class App {
   amount = 1000;
 
   name = 'kedar';
+  name1 = '';
 
 }
