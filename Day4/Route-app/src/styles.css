@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.top--bar a,
+.Menu a {
+    text-decoration: none;
+    color: #334155;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+}

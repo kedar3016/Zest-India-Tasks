@@ -1,0 +1,5 @@
+.top--bar,
+.bottom--bar .Menu {
+    display: flex;
+    gap: 20px;
+}
