@@ -1,0 +1,57 @@
+<div class="course-detail-container">
+
+    <div class="course-detail-card">
+
+        <div class="course-image-section">
+            <img [src]="course.imageURL"
+                 [alt]="course.name"
+                 class="course-detail-image">
+        </div>
+
+        <div class="course-info-section">
+
+            <h1 class="course-title">
+                {{course.name}}
+            </h1>
+
+            <div class="course-info">
+                <p>
+                    <strong>Duration:</strong>
+                    {{course.duration}}
+                </p>
+
+                <p>
+                    <strong>Course Fee:</strong>
+                    ₹{{course.fees}}
+                </p>
+
+                <p>
+                    <strong>Available Seats:</strong>
+                    {{course.seatsAvailable}}
+                </p>
+
+                <p class="discount-price">
+                    <strong>Discounted Price:</strong>
+                    ₹{{getDiscountedPrice().toFixed(2)}}
+                </p>
+            </div>
+
+            <div class="course-description">
+                <h3>Course Overview</h3>
+
+                <p>
+                    Learn industry-ready skills with hands-on projects,
+                    real-world assignments, interview preparation,
+                    and certification support.
+                </p>
+            </div>
+
+            <button class="enroll-btn">
+                Enroll Now
+            </button>
+
+        </div>
+
+    </div>
+
+</div>

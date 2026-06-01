@@ -1,0 +1,108 @@
+import { Component, Input } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { NgStyle } from '@angular/common';
+import { CourseComponent } from './course/course';
+import { Filter } from "../filter/filter";
+import { Course } from '../../Models/Course';
+@Component({
+  selector: 'lists',
+  imports: [CommonModule, NgStyle, CourseComponent, Filter],
+  templateUrl: './lists.html',
+  styleUrl: './lists.css',
+})
+export class Lists {
+  selectedCourse :Course;
+ courses = [
+  {
+    id: 1,
+    name: "Java Full Stack",
+    duration: "6 Months",
+    fees: 50000,
+    seatsAvailable: 20,
+    imageURL: "https://cdn-icons-png.flaticon.com/512/919/919854.png"
+  },
+  {
+    id: 2,
+    name: "MERN Stack Development",
+    duration: "5 Months",
+    fees: 45000,
+    seatsAvailable: 0,
+    imageURL: "https://cdn-icons-png.flaticon.com/512/919/919825.png"
+  },
+  {
+    id: 3,
+    name: "Python Full Stack",
+    duration: "6 Months",
+    fees: 48000,
+    seatsAvailable: 18,
+    imageURL: "https://cdn-icons-png.flaticon.com/512/5968/5968350.png"
+  },
+  {
+    id: 4,
+    name: ".NET Full Stack",
+    duration: "6 Months",
+    fees: 50000,
+    seatsAvailable: 15,
+    imageURL: "https://cdn-icons-png.flaticon.com/512/6132/6132221.png"
+  },
+  {
+    id: 5,
+    name: "Angular Development",
+    duration: "4 Months",
+    fees: 30000,
+    seatsAvailable: 30,
+    imageURL: "https://angular.io/assets/images/logos/angular/angular.png"
+  },
+  {
+    id: 6,
+    name: "React Development",
+    duration: "4 Months",
+    fees: 30000,
+    seatsAvailable: 28,
+    imageURL: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+  },
+  {
+    id: 7,
+    name: "Data Structures & Algorithms",
+    duration: "3 Months",
+    fees: 25000,
+    seatsAvailable: 35,
+    imageURL: "https://cdn-icons-png.flaticon.com/512/2103/2103633.png"
+  },
+  {
+    id: 8,
+    name: "Cloud Computing (AWS)",
+    duration: "4 Months",
+    fees: 40000,
+    seatsAvailable: 22,
+    imageURL: "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png"
+  },
+  {
+    id: 9,
+    name: "DevOps Engineering",
+    duration: "5 Months",
+    fees: 45000,
+    seatsAvailable: 20,
+    imageURL: "https://cdn-icons-png.flaticon.com/512/919/919853.png"
+  },
+  {
+    id: 10,
+    name: "AI & Machine Learning",
+    duration: "6 Months",
+    fees: 60000,
+    seatsAvailable: 15,
+    imageURL: "https://cdn-icons-png.flaticon.com/512/2103/2103832.png"
+  }
+];
+
+totalCourses = this.courses.length;
+availableCourses = this.courses.filter(course => course.seatsAvailable > 0).length;
+fullCourses = this.courses.filter(course => course.seatsAvailable === 0).length;
+
+  @Input()
+  searchText:string = '';
+
+  isBatchFull(seatsAvailable: number): boolean {
+  return seatsAvailable === 0;
+}
+}

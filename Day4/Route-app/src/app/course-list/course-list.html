@@ -6,5 +6,7 @@
 <p>Discounted Price : {{getDiscountedPrice().toFixed(2)}}</p>
 <button type="button" class="btn btn-success">Enroll Now</button> -->
 <div>
-    <app-search></app-search>
+    <app-search (searchTextChanged) = "setSearchText($event)"></app-search>
+    <lists [searchText]="searchText" #List></lists>
+    <course-detail *ngIf="List.selectedCourse"></course-detail>
 </div>

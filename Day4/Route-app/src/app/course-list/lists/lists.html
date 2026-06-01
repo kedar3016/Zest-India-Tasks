@@ -1,0 +1,8 @@
+    <app-filter class="filter-wrapper" [all] = "totalCourses" [available] = "availableCourses" [full]="fullCourses"></app-filter>
+<div class = "course-list">
+    <div *ngFor="let course of courses" (click) = "selectedCourse = course">
+        <app-course [course]="course" *ngIf="searchText === '' || course.name.toLowerCase().includes(searchText)">
+    </app-course>
+</div>
+    
+</div>

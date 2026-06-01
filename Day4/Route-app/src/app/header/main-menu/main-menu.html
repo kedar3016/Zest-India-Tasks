@@ -1,8 +1,9 @@
  <div class="bottom--bar">
             <div class="Menu">
-            <a href="#">Home</a>
+            <a *ngFor="let menu of mainMenuItems" href="#">{{menu}}</a>
+            <!-- <a href="#">Home</a>
             <a href="#">About Us</a>
             <a href="#">Contact</a>
-            <a href="#">Courses</a>
+            <a href="#">Courses</a> -->
             </div>
 </div>

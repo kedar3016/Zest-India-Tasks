@@ -1,7 +1,8 @@
 <div class = "search--course">
-    <input class="search-course-input" placeholder="Search for courses" [(ngModel)] = "searchText">
-    <button class=" btn btn-search">
+    <input class="search-course-input" placeholder="Search for courses" [(ngModel)] = "searchText" (input)="onSearchTextChanged()">
+    <button class=" btn btn-search" [disabled] ="!searchText">
        Search
     </button>
 </div>
-<div class = "search-result-for"><p><strong>Search result for:</strong>{{searchText}}</p></div>
+<div class = "search-result-for" >
+    <p *ngIf="searchText != ''"><strong>Search result for:</strong> {{searchText}}</p></div>

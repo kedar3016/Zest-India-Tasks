@@ -1,9 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter } from '@angular/core';
 import { Search } from './search/search';
-
+import { Lists } from './lists/lists';
+import { CourseDetail } from './course-detail/course-detail';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 @Component({
   selector: 'course-list',
-  imports: [Search],
+  imports: [Search, Lists, CourseDetail,CommonModule,FormsModule],
   templateUrl: './course-list.html',
   styleUrl: './course-list.css',
 })
@@ -17,6 +20,11 @@ export class CourseList {
 }
   getDiscountedPrice(){
     return this.course.price - (this.course.price * this.course.discount / 100);
+  }
+  
+  searchText:string = '';
+  setSearchText(value:any){
+    this.searchText = value;
   }
 
 }
