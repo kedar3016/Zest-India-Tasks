@@ -1,6 +1,6 @@
 <section class="hero">
-
     <div class="hero-content">
+        <span class="section-label">Live training with practical projects</span>
 
         <h1>
             Learn Skills That Build Your Future
@@ -13,15 +13,14 @@
         </p>
 
         <div class="hero-buttons">
-            <button class="btn-primary">
+            <a class="btn-primary" href="#courses">
                 Explore Courses
-            </button>
+            </a>
 
-            <button class="btn-secondary">
+            <a class="btn-secondary" routerLink="/contact">
                 Free Demo Class
-            </button>
+            </a>
         </div>
-
     </div>
 
     <div class="hero-image">
@@ -29,5 +28,105 @@
             src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png"
             alt="Student Learning">
     </div>
+</section>
 
+<section class="stats-section">
+    <div class="stat-card">
+        <strong>10+</strong>
+        <span>Career Courses</span>
+    </div>
+
+    <div class="stat-card">
+        <strong>50+</strong>
+        <span>Live Projects</span>
+    </div>
+
+    <div class="stat-card">
+        <strong>5k+</strong>
+        <span>Students Trained</span>
+    </div>
+
+    <div class="stat-card">
+        <strong>100%</strong>
+        <span>Practical Learning</span>
+    </div>
+</section>
+
+<section class="learning-section">
+    <div class="section-heading">
+        <span class="section-label">Popular learning paths</span>
+        <h2>Choose the skill track that matches your career goal</h2>
+        <p>
+            Build a strong foundation, practice with real assignments,
+            and prepare for interviews with focused course paths.
+        </p>
+    </div>
+
+    <div class="path-grid">
+        <div class="path-card">
+            <h3>Full Stack Development</h3>
+            <p>Master frontend, backend, databases, APIs, and deployment workflows.</p>
+        </div>
+
+        <div class="path-card">
+            <h3>Cloud & DevOps</h3>
+            <p>Learn AWS, automation, CI/CD, containers, and production-ready practices.</p>
+        </div>
+
+        <div class="path-card">
+            <h3>Data & AI</h3>
+            <p>Study Python, data handling, machine learning basics, and applied AI projects.</p>
+        </div>
+    </div>
+</section>
+
+<section class="why-section">
+    <div class="why-image">
+        <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="Project based learning">
+    </div>
+
+    <div class="why-content">
+        <span class="section-label">Why Proacademy</span>
+        <h2>Training designed around real developer work</h2>
+
+        <div class="why-list">
+            <div>
+                <h3>Structured batches</h3>
+                <p>Learn step by step with a clear schedule and mentor-led sessions.</p>
+            </div>
+
+            <div>
+                <h3>Project practice</h3>
+                <p>Apply every topic through mini projects and complete applications.</p>
+            </div>
+
+            <div>
+                <h3>Interview preparation</h3>
+                <p>Get guidance for resumes, technical rounds, and practical coding questions.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="courses-preview" id="courses">
+    <div class="section-heading">
+        <span class="section-label">Featured courses</span>
+        <h2>Explore our most in-demand programs</h2>
+        <p>
+            Search courses, check availability, and choose the program that fits your next step.
+        </p>
+    </div>
+
+    <course-list></course-list>
+</section>
+
+<section class="cta-section">
+    <div>
+        <span class="section-label">Ready to begin?</span>
+        <h2>Book a free demo class and meet your mentor</h2>
+    </div>
+
+    <a class="btn-primary" routerLink="/contact">
+        Contact Us
+    </a>
 </section>

@@ -1,0 +1,67 @@
+<div class="container">
+
+  <h2>Reactive Form With Custom Validation</h2>
+
+  <form [formGroup]="signupForm"
+        (ngSubmit)="onSubmit()">
+
+    <label>Email</label>
+
+    <input
+      type="email"
+      formControlName="email">
+
+    <div
+      *ngIf="signupForm.get('email')?.invalid &&
+             signupForm.get('email')?.touched">
+
+      <small *ngIf="signupForm.get('email')?.hasError('required')">
+        Email is required
+      </small>
+
+      <small *ngIf="signupForm.get('email')?.hasError('email')">
+        Invalid Email Format
+      </small>
+
+    </div>
+
+    <br><br>
+
+    <label>Password</label>
+
+    <input
+      type="password"
+      formControlName="password">
+
+    <div
+      *ngIf="signupForm.get('password')?.invalid &&
+             signupForm.get('password')?.touched">
+
+      <small *ngIf="signupForm.get('password')?.hasError('required')">
+        Password is required
+      </small>
+
+      <small *ngIf="signupForm.get('password')?.hasError('minlength')">
+        Minimum 8 characters required
+      </small>
+
+      <small *ngIf="signupForm.get('password')?.hasError('passwordStrength')">
+        Password must contain:
+        Uppercase, Lowercase,
+        Number and Special Character
+      </small>
+
+    </div>
+
+    <br><br>
+
+    <button
+      type="submit"
+      [disabled]="signupForm.invalid">
+
+      Submit
+    </button>
+
+  </form>
+
+</div>

@@ -1,5 +1,4 @@
-import { Component, ViewChild } from '@angular/core';
-import { Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 @Component({
   selector: 'app-filter',
@@ -16,4 +15,11 @@ export class Filter {
   full:number = 0;
 
   selectFilter:string = 'all';
+
+  @Output()
+  filterChanged: EventEmitter<string> = new EventEmitter<string>();
+
+  onFilterChanged(){
+    this.filterChanged.emit(this.selectFilter);
+  }
 }

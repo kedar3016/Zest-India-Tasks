@@ -1,4 +1,4 @@
-import { Component, EventEmitter } from '@angular/core';
+import { Component } from '@angular/core';
 import { Search } from './search/search';
 import { Lists } from './lists/lists';
 import { CourseDetail } from './course-detail/course-detail';
@@ -23,7 +23,7 @@ export class CourseList {
   }
   
   searchText:string = '';
-  setSearchText(value:any){
+  setSearchText(value:string){
     this.searchText = value;
   }
 

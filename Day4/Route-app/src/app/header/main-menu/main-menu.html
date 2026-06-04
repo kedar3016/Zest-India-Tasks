@@ -1,6 +1,12 @@
  <div class="bottom--bar">
             <div class="Menu">
-            <a *ngFor="let menu of mainMenuItems" href="#">{{menu}}</a>
+            <a
+                *ngFor="let menu of mainMenuItems"
+                [routerLink]="menu.path"
+                routerLinkActive="active-menu"
+                [routerLinkActiveOptions]="{ exact: menu.path === '/' }">
+                {{menu.label}}
+            </a>
             <!-- <a href="#">Home</a>
             <a href="#">About Us</a>
             <a href="#">Contact</a>

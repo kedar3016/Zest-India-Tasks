@@ -1,4 +1,4 @@
-import { Component, EventEmitter } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 @Component({
@@ -10,6 +10,7 @@ import { CommonModule } from '@angular/common';
 export class Search {
     searchText : string = '';
 
+    @Output()
     searchTextChanged :EventEmitter<string> = new EventEmitter<string>();
 
     onSearchTextChanged(){

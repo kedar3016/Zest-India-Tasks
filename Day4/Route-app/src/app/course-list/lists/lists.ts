@@ -1,17 +1,20 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NgStyle } from '@angular/common';
 import { CourseComponent } from './course/course';
 import { Filter } from "../filter/filter";
 import { Course } from '../../Models/Course';
+import { Router } from '@angular/router';
 @Component({
   selector: 'lists',
-  imports: [CommonModule, NgStyle, CourseComponent, Filter],
+  imports: [CommonModule, CourseComponent, Filter],
   templateUrl: './lists.html',
   styleUrl: './lists.css',
 })
 export class Lists {
   selectedCourse :Course;
+
+ constructor(private router: Router) {}
+
  courses = [
   {
     id: 1,
@@ -102,7 +105,46 @@ fullCourses = this.courses.filter(course => course.seatsAvailable === 0).length;
   @Input()
   searchText:string = '';
 
+  selectedFilter:string = 'all';
+
+  get filteredCourses() {
+    const searchValue = this.searchText.trim().toLowerCase();
+
+    return this.courses.filter(course =>
+      this.matchesSearch(course, searchValue) && this.matchesFilter(course)
+    );
+  }
+
+  matchesSearch(course: Course, searchValue: string): boolean {
+    return searchValue === '' || course.name.toLowerCase().includes(searchValue);
+  }
+
+  matchesFilter(course: Course): boolean {
+    if (this.selectedFilter === 'available') {
+      return course.seatsAvailable > 0;
+    }
+
+    if (this.selectedFilter === 'full') {
+      return course.seatsAvailable === 0;
+    }
+
+    return true;
+  }
+
+  setFilter(value:string) {
+    this.selectedFilter = value;
+  }
+
   isBatchFull(seatsAvailable: number): boolean {
   return seatsAvailable === 0;
 }
+
+  openRegisterPage(course: Course) {
+    this.selectedCourse = course;
+    this.router.navigate(['/register'], {
+      queryParams: {
+        course: course.name
+      }
+    });
+  }
 }

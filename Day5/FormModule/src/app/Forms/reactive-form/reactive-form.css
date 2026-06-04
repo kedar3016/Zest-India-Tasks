@@ -1,0 +1,20 @@
+.container {
+  width: 400px;
+  margin: 30px auto;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+small {
+  color: red;
+  display: block;
+  margin-top: 5px;
+}
+
+button {
+  padding: 8px 15px;
+}

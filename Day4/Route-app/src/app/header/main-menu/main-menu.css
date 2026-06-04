@@ -3,3 +3,8 @@
     display: flex;
     gap: 20px;
 }
+
+.Menu a.active-menu {
+    color: #2563eb;
+    font-weight: 700;
+}

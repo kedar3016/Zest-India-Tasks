@@ -1,0 +1,102 @@
+/* Card Styling */
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Card Header */
+.card-header {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  padding: 15px;
+}
+
+/* Card Body */
+.card-body {
+  padding: 20px;
+}
+
+/* Table Styling */
+.table {
+  margin-bottom: 0;
+}
+
+.table thead th {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table tbody td {
+  vertical-align: middle;
+}
+
+.table tbody tr:hover {
+  background-color: #f8f9fa;
+  transition: 0.3s;
+}
+
+/* Input Fields */
+.form-control {
+  border-radius: 10px;
+  border: 1px solid #ced4da;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 8px rgba(13, 110, 253, 0.25);
+}
+
+/* Labels */
+label {
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #495057;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 6px 15px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Edit Button */
+.bg-success {
+  color: white !important;
+}
+
+/* Delete Button */
+.bg-danger {
+  color: white !important;
+}
+
+/* Save/Update Buttons */
+.btn-success,
+.btn-warning,
+.btn-secondary {
+  min-width: 100px;
+}
+
+/* Responsive Table */
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Page Background */
+body {
+  background-color: #f4f6f9;
+}
