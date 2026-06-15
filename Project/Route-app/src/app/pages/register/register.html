@@ -1,0 +1,43 @@
+<section class="register-page">
+    <div class="register-content">
+        <span class="section-label">Course Registration</span>
+        <h1>Register for {{courseName}}</h1>
+        <p>
+            Fill in your details and our team will help you with batch timings,
+            fees, demo class access, and enrollment guidance.
+        </p>
+
+        <div class="register-points">
+            <div>
+                <h3>Personal Guidance</h3>
+                <p>Talk to a counselor before you confirm your batch.</p>
+            </div>
+
+            <div>
+                <h3>Free Demo Option</h3>
+                <p>Attend a demo class and understand the teaching style first.</p>
+            </div>
+        </div>
+    </div>
+
+    <form class="register-form">
+        <h2>Register Now</h2>
+
+        <label for="course">Course</label>
+        <input id="course" type="text" [value]="courseName" readonly>
+
+        <label for="name">Full Name</label>
+        <input id="name" type="text" placeholder="Enter your name">
+
+        <label for="email">Email Address</label>
+        <input id="email" type="email" placeholder="Enter your email">
+
+        <label for="phone">Mobile Number</label>
+        <input id="phone" type="tel" placeholder="Enter mobile number">
+
+        <div class="register-actions">
+            <button type="button">Register Course</button>
+            <a routerLink="/contact">Book Demo</a>
+        </div>
+    </form>
+</section>

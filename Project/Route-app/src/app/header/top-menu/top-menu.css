@@ -1,0 +1,9 @@
+.top--bar{
+    display: flex;
+    gap: 20px;
+}
+
+.top--bar a.active-top-link {
+    color: #2563eb;
+    font-weight: 700;
+}

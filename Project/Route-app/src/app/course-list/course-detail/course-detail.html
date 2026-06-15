@@ -1,0 +1,60 @@
+<div class="course-detail-container" *ngIf="course">
+
+    <div class="course-detail-card">
+
+        <div class="course-image-section">
+            <img [src]="course.imageURL || 'https://cdn-icons-png.flaticon.com/512/3135/3135755.png'"
+                 [alt]="course.name"
+                 class="course-detail-image">
+        </div>
+
+        <div class="course-info-section">
+
+            <h1 class="course-title">
+                {{course.name}}
+            </h1>
+
+            <div class="course-info">
+                <p>
+                    <strong>Duration:</strong>
+                    {{course.duration}} Weeks
+                </p>
+
+                <p>
+                    <strong>Course Fee:</strong>
+                    ₹{{course.fees | number}}
+                </p>
+
+                <p>
+                    <strong>Available Seats:</strong>
+                    {{course.seatsAvailable}}
+                </p>
+
+                <p class="discount-price">
+                    <strong>Discounted Price:</strong>
+                    ₹{{getDiscountedPrice() | number:'1.2-2'}}
+                </p>
+            </div>
+
+            <div class="course-description">
+                <h3>Course Overview</h3>
+
+                <p>
+                    Learn industry-ready skills with hands-on projects,
+                    real-world assignments, interview preparation,
+                    and certification support.
+                </p>
+            </div>
+
+            <button 
+                class="enroll-btn" 
+                (click)="enroll()" 
+                [disabled]="isEnrolled || course.seatsAvailable <= 0">
+                {{ isEnrolled ? 'Already Enrolled' : (course.seatsAvailable <= 0 ? 'Batch Full' : 'Enroll Now') }}
+            </button>
+
+        </div>
+
+    </div>
+
+</div>

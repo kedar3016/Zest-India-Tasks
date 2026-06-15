@@ -1,5 +1,18 @@
 <div class="top--bar">
-            <a routerLink="/contact" routerLinkActive="active-top-link">Help</a>
+    <a routerLink="/contact" routerLinkActive="active-top-link">Help</a>
+    <a routerLink="/login" routerLinkActive="active-top-link">Login</a>
+    @if(!isLoggedin()){
+            
             <a routerLink="/signup" routerLinkActive="active-top-link">Sign Up</a>
-            <a routerLink="/login" routerLinkActive="active-top-link">Login</a>
+            
+    }
+    @if(isLoggedin()){
+            <a (click)="logout()"></a>
+        @if(isAdmin())
+                    {
+                        <a routerLink="/add-course">
+                            Add Course
+                        </a>
+                    }
+        }
 </div>

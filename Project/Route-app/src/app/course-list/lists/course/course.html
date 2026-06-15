@@ -1,0 +1,13 @@
+<div class = "sub-course-list" ngFor="let course of course">
+        <div class = "course-image">
+            <img [src] = "course.imageURL" class = "course-image">
+        </div>
+        <!-- <div class = "add-to-price">
+            Price
+        </div> -->
+        <div class = "course-name">{{course.name}}</div>
+        <div class = "course-duration">{{course.duration}}</div>
+        <div class = "fee">{{course.fees}}</div>
+        <div class = "seats">{{course.seatsAvailable}}</div>
+        <div class = "batch-is-full" [ngStyle] = "{fontWeigth : 'bold',color : 'red'}">{{isBatchFull(course.seatsAvailable) ?'Batch is Full!!' : ''}}</div>
+    </div>

@@ -1,0 +1,476 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Zest India\\Training\\Project\\Proacademy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D554CA7-2D8B-4CAF-A261-732830EF1873}|Proacademy.API\\Proacademy.API.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.api\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D554CA7-2D8B-4CAF-A261-732830EF1873}|Proacademy.API\\Proacademy.API.csproj|solutionrelative:proacademy.api\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D554CA7-2D8B-4CAF-A261-732830EF1873}|Proacademy.API\\Proacademy.API.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2D554CA7-2D8B-4CAF-A261-732830EF1873}|Proacademy.API\\Proacademy.API.csproj|solutionrelative:proacademy.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|solutionrelative:proacademy.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D554CA7-2D8B-4CAF-A261-732830EF1873}|Proacademy.API\\Proacademy.API.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D554CA7-2D8B-4CAF-A261-732830EF1873}|Proacademy.API\\Proacademy.API.csproj|solutionrelative:proacademy.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D554CA7-2D8B-4CAF-A261-732830EF1873}|Proacademy.API\\Proacademy.API.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D554CA7-2D8B-4CAF-A261-732830EF1873}|Proacademy.API\\Proacademy.API.csproj|solutionrelative:proacademy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.application\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|solutionrelative:proacademy.application\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA09C3CB-6CAB-4E8B-833D-335CCDED078F}|Proacademy.Domain\\Proacademy.Domain.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA09C3CB-6CAB-4E8B-833D-335CCDED078F}|Proacademy.Domain\\Proacademy.Domain.csproj|solutionrelative:proacademy.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA09C3CB-6CAB-4E8B-833D-335CCDED078F}|Proacademy.Domain\\Proacademy.Domain.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.domain\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA09C3CB-6CAB-4E8B-833D-335CCDED078F}|Proacademy.Domain\\Proacademy.Domain.csproj|solutionrelative:proacademy.domain\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.application\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|solutionrelative:proacademy.application\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.application\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|solutionrelative:proacademy.application\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.application\\interfaces\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|solutionrelative:proacademy.application\\interfaces\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.application\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|solutionrelative:proacademy.application\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|solutionrelative:proacademy.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.application\\interfaces\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|solutionrelative:proacademy.application\\interfaces\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|solutionrelative:proacademy.application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEFC631-DA60-44BD-B64D-9CCAEB9ED944}|Proacademy.Infrastructure\\Proacademy.Infrastructure.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CEFC631-DA60-44BD-B64D-9CCAEB9ED944}|Proacademy.Infrastructure\\Proacademy.Infrastructure.csproj|solutionrelative:proacademy.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|solutionrelative:proacademy.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEFC631-DA60-44BD-B64D-9CCAEB9ED944}|Proacademy.Infrastructure\\Proacademy.Infrastructure.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CEFC631-DA60-44BD-B64D-9CCAEB9ED944}|Proacademy.Infrastructure\\Proacademy.Infrastructure.csproj|solutionrelative:proacademy.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEFC631-DA60-44BD-B64D-9CCAEB9ED944}|Proacademy.Infrastructure\\Proacademy.Infrastructure.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.infrastructure\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CEFC631-DA60-44BD-B64D-9CCAEB9ED944}|Proacademy.Infrastructure\\Proacademy.Infrastructure.csproj|solutionrelative:proacademy.infrastructure\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D554CA7-2D8B-4CAF-A261-732830EF1873}|Proacademy.API\\Proacademy.API.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.api\\proacademy.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{2D554CA7-2D8B-4CAF-A261-732830EF1873}|Proacademy.API\\Proacademy.API.csproj|solutionrelative:proacademy.api\\proacademy.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D554CA7-2D8B-4CAF-A261-732830EF1873}|Proacademy.API\\Proacademy.API.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D554CA7-2D8B-4CAF-A261-732830EF1873}|Proacademy.API\\Proacademy.API.csproj|solutionrelative:proacademy.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D554CA7-2D8B-4CAF-A261-732830EF1873}|Proacademy.API\\Proacademy.API.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.api\\proacademy.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2D554CA7-2D8B-4CAF-A261-732830EF1873}|Proacademy.API\\Proacademy.API.csproj|solutionrelative:proacademy.api\\proacademy.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.application\\dtos\\courseresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|solutionrelative:proacademy.application\\dtos\\courseresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.application\\dtos\\createcoursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|solutionrelative:proacademy.application\\dtos\\createcoursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D554CA7-2D8B-4CAF-A261-732830EF1873}|Proacademy.API\\Proacademy.API.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.api\\proacademy.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{2D554CA7-2D8B-4CAF-A261-732830EF1873}|Proacademy.API\\Proacademy.API.csproj|solutionrelative:proacademy.api\\proacademy.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.application\\proacademy.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E626D0DD-9253-45F4-B726-FD4E2AAF9861}|Proacademy.Application\\Proacademy.Application.csproj|solutionrelative:proacademy.application\\proacademy.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEFC631-DA60-44BD-B64D-9CCAEB9ED944}|Proacademy.Infrastructure\\Proacademy.Infrastructure.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.infrastructure\\migrations\\20260610091355_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CEFC631-DA60-44BD-B64D-9CCAEB9ED944}|Proacademy.Infrastructure\\Proacademy.Infrastructure.csproj|solutionrelative:proacademy.infrastructure\\migrations\\20260610091355_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEFC631-DA60-44BD-B64D-9CCAEB9ED944}|Proacademy.Infrastructure\\Proacademy.Infrastructure.csproj|e:\\zest india\\training\\project\\proacademy\\proacademy.infrastructure\\migrations\\20260612051358_addusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CEFC631-DA60-44BD-B64D-9CCAEB9ED944}|Proacademy.Infrastructure\\Proacademy.Infrastructure.csproj|solutionrelative:proacademy.infrastructure\\migrations\\20260612051358_addusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Proacademy.API\\appsettings.json",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.API\\appsettings.json",
+              "RelativeToolTip": "Proacademy.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-10T07:00:34.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.API\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Proacademy.API\\Controllers\\CourseController.cs",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.API\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Proacademy.API\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T08:44:58.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Proacademy.Application\\Services\\AuthService.cs",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "Proacademy.Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T05:44:34.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Proacademy.API\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Proacademy.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAswC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T05:59:24.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.API\\Program.cs",
+              "RelativeDocumentMoniker": "Proacademy.API\\Program.cs",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.API\\Program.cs",
+              "RelativeToolTip": "Proacademy.API\\Program.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAUwFEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T07:02:28.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JWTService.cs",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\Services\\JWTService.cs",
+              "RelativeDocumentMoniker": "Proacademy.Application\\Services\\JWTService.cs",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\Services\\JWTService.cs",
+              "RelativeToolTip": "Proacademy.Application\\Services\\JWTService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T06:19:44.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ICourseService.cs",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\Interfaces\\ICourseService.cs",
+              "RelativeDocumentMoniker": "Proacademy.Application\\Interfaces\\ICourseService.cs",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\Interfaces\\ICourseService.cs",
+              "RelativeToolTip": "Proacademy.Application\\Interfaces\\ICourseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T07:32:14.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IJWTService.cs",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\Interfaces\\IJWTService.cs",
+              "RelativeDocumentMoniker": "Proacademy.Application\\Interfaces\\IJWTService.cs",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\Interfaces\\IJWTService.cs",
+              "RelativeToolTip": "Proacademy.Application\\Interfaces\\IJWTService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T06:18:50.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\Services\\CourseService.cs",
+              "RelativeDocumentMoniker": "Proacademy.Application\\Services\\CourseService.cs",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\Services\\CourseService.cs",
+              "RelativeToolTip": "Proacademy.Application\\Services\\CourseService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwCQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T07:35:11.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Course.cs",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Domain\\Entities\\Course.cs",
+              "RelativeDocumentMoniker": "Proacademy.Domain\\Entities\\Course.cs",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Domain\\Entities\\Course.cs",
+              "RelativeToolTip": "Proacademy.Domain\\Entities\\Course.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:08:36.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "user.cs",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Domain\\Entities\\user.cs",
+              "RelativeDocumentMoniker": "Proacademy.Domain\\Entities\\user.cs",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Domain\\Entities\\user.cs",
+              "RelativeToolTip": "Proacademy.Domain\\Entities\\user.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T04:59:23.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\DTOs\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "Proacademy.Application\\DTOs\\AuthResponseDto.cs",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\DTOs\\AuthResponseDto.cs",
+              "RelativeToolTip": "Proacademy.Application\\DTOs\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T05:42:25.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Proacademy.Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Proacademy.Application\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T05:43:28.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Proacademy.Application\\DTOs\\LoginDTO.cs",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "Proacademy.Application\\DTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T05:03:52.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ICourseRepository.cs",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\Interfaces\\ICourseRepository.cs",
+              "RelativeDocumentMoniker": "Proacademy.Application\\Interfaces\\ICourseRepository.cs",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\Interfaces\\ICourseRepository.cs",
+              "RelativeToolTip": "Proacademy.Application\\Interfaces\\ICourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T07:19:35.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20260612051358_Addusertable.cs",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Infrastructure\\Migrations\\20260612051358_Addusertable.cs",
+              "RelativeDocumentMoniker": "Proacademy.Infrastructure\\Migrations\\20260612051358_Addusertable.cs",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Infrastructure\\Migrations\\20260612051358_Addusertable.cs",
+              "RelativeToolTip": "Proacademy.Infrastructure\\Migrations\\20260612051358_Addusertable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T05:13:59.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Proacademy.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Proacademy.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T05:07:13.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Proacademy.Application\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Proacademy.Application\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T05:06:14.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Proacademy.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Proacademy.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:55:03.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.API\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Proacademy.API\\WeatherForecast.cs",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.API\\WeatherForecast.cs",
+              "RelativeToolTip": "Proacademy.API\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T07:02:27.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Infrastructure\\Repositories\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "Proacademy.Infrastructure\\Repositories\\CourseRepository.cs",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Infrastructure\\Repositories\\CourseRepository.cs",
+              "RelativeToolTip": "Proacademy.Infrastructure\\Repositories\\CourseRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T07:21:01.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Proacademy.API",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.API\\Proacademy.API.csproj",
+              "RelativeDocumentMoniker": "Proacademy.API\\Proacademy.API.csproj",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.API\\Proacademy.API.csproj",
+              "RelativeToolTip": "Proacademy.API\\Proacademy.API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-10T10:12:27.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Proacademy.API.csproj",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.API\\Proacademy.API.csproj",
+              "RelativeDocumentMoniker": "Proacademy.API\\Proacademy.API.csproj",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.API\\Proacademy.API.csproj",
+              "RelativeToolTip": "Proacademy.API\\Proacademy.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-10T07:06:36.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CourseResponseDTO.cs",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\DTOs\\CourseResponseDTO.cs",
+              "RelativeDocumentMoniker": "Proacademy.Application\\DTOs\\CourseResponseDTO.cs",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\DTOs\\CourseResponseDTO.cs",
+              "RelativeToolTip": "Proacademy.Application\\DTOs\\CourseResponseDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T07:30:49.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20260610091355_InitialCreate.cs",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Infrastructure\\Migrations\\20260610091355_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Proacademy.Infrastructure\\Migrations\\20260610091355_InitialCreate.cs",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Infrastructure\\Migrations\\20260610091355_InitialCreate.cs",
+              "RelativeToolTip": "Proacademy.Infrastructure\\Migrations\\20260610091355_InitialCreate.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T09:13:55.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateCourseDTO.cs",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\DTOs\\CreateCourseDTO.cs",
+              "RelativeDocumentMoniker": "Proacademy.Application\\DTOs\\CreateCourseDTO.cs",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\DTOs\\CreateCourseDTO.cs",
+              "RelativeToolTip": "Proacademy.Application\\DTOs\\CreateCourseDTO.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAEBVwBIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T07:30:08.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Proacademy.API.http",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.API\\Proacademy.API.http",
+              "RelativeDocumentMoniker": "Proacademy.API\\Proacademy.API.http",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.API\\Proacademy.API.http",
+              "RelativeToolTip": "Proacademy.API\\Proacademy.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-06-10T07:00:33.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Proacademy.Application.csproj",
+              "DocumentMoniker": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\Proacademy.Application.csproj",
+              "RelativeDocumentMoniker": "Proacademy.Application\\Proacademy.Application.csproj",
+              "ToolTip": "E:\\Zest India\\Training\\Project\\Proacademy\\Proacademy.Application\\Proacademy.Application.csproj",
+              "RelativeToolTip": "Proacademy.Application\\Proacademy.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-10T05:58:47.65Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<div class = "proacademy-header">
+    <div class="proacademy-logo">
+        <img src="images/proacademy-logo.svg" alt="Proacademy Logo">
+        <span>Proacademy</span>
+    </div>
+    <div class="header--nav">
+        <!-- Top Menu -->
+        <app-top-menu></app-top-menu>
+       <!-- Main Menu -->
+        <app-main-menu></app-main-menu>
+
+        <div class="header-auth">
+            <!-- For Guest Users -->
+            <ng-container *ngIf="!isLoggedIn()">
+                <a routerLink="/login" routerLinkActive="active-auth-link" class="login-btn">Login</a>
+                <a routerLink="/signup" routerLinkActive="active-auth-link" class="signup-btn">Sign Up</a>
+            </ng-container>
+
+            <!-- For Authenticated Users -->
+            <ng-container *ngIf="isLoggedIn()">
+                <button (click)="logout()" class="logout-btn">Logout</button>
+            </ng-container>
+        </div>
+
+    </div>
+</div>

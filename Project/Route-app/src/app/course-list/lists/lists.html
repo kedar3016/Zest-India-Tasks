@@ -1,0 +1,14 @@
+    <app-filter
+        class="filter-wrapper"
+        [all] = "totalCourses"
+        [available] = "availableCourses"
+        [full]="fullCourses"
+        (filterChanged)="setFilter($event)">
+    </app-filter>
+<div class = "course-list">
+    <div *ngFor="let course of filteredCourses" (click) = "openRegisterPage(course)">
+        <app-course [course]="course">
+    </app-course>
+</div>
+    
+</div>

@@ -1,0 +1,95 @@
+<div class="student-container">
+  
+  <!-- Student Header Banner -->
+  <div class="student-header">
+    <div>
+      <h1>Welcome Back, Scholar!</h1>
+      <p>Here is your learning checklist and course explore panel.</p>
+    </div>
+  </div>
+
+  <!-- Quick Stats cards -->
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-icon courses-icon">📚</div>
+      <div class="stat-info">
+        <h3>My Active Courses</h3>
+        <strong>{{ stats.enrolledCount }} Programs</strong>
+      </div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon learning-icon">⏱️</div>
+      <div class="stat-info">
+        <h3>Total Learning Time</h3>
+        <strong>{{ stats.hoursDuration }} Weeks</strong>
+      </div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon explore-icon">🌐</div>
+      <div class="stat-info">
+        <h3>Catalog Vacancies</h3>
+        <strong>{{ stats.seatsRemaining }} Seats</strong>
+      </div>
+    </div>
+  </div>
+
+  <!-- Enrolled Courses Section -->
+  <div class="section-card">
+    <div class="section-header">
+      <h2>My Active Enrolled Courses</h2>
+    </div>
+    <div class="courses-grid" *ngIf="enrolledEnrollments.length > 0">
+      <div class="course-card" *ngFor="let enrollment of enrolledEnrollments">
+        <div class="card-body">
+          <div class="card-details">
+            <span class="status-badge active">{{ enrollment.status }}</span>
+            <h3>{{ enrollment.courseName }}</h3>
+            <p class="enroll-date">Joined: {{ enrollment.enrollDate | date:'yyyy-MM-dd' }}</p>
+          </div>
+          <div class="card-footer">
+            <span class="learning-pill">Ongoing Study</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Empty Enrolled State -->
+    <div class="empty-state" *ngIf="enrolledEnrollments.length === 0">
+      <p>You have not registered for any courses yet. Scroll down to browse and join active training batches!</p>
+    </div>
+  </div>
+
+  <!-- Explore Catalog Courses Section -->
+  <div class="section-card">
+    <div class="section-header">
+      <h2>Explore Available Courses</h2>
+    </div>
+    
+    <div class="catalog-grid" *ngIf="availableCourses.length > 0">
+      <div class="catalog-card" *ngFor="let course of availableCourses">
+        <div class="catalog-thumb">
+          <img [src]="course.imageURL || 'https://cdn-icons-png.flaticon.com/512/3135/3135755.png'" alt="Course Thumbnail">
+        </div>
+        <div class="catalog-details">
+          <span class="duration-badge">{{ course.duration }} Weeks</span>
+          <h3>{{ course.name }}</h3>
+          <div class="course-meta">
+            <span class="seats-left" [class.low-seats]="course.seatsAvailable <= 5">
+              Seats left: {{ course.seatsAvailable }}
+            </span>
+            <span class="course-fees">₹{{ course.fees | number }}</span>
+          </div>
+          <button class="btn-enroll" (click)="enroll(course.id)" [disabled]="course.seatsAvailable <= 0">
+            {{ course.seatsAvailable <= 0 ? 'Batch Full' : 'Enroll Now' }}
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Empty Catalog State -->
+    <div class="empty-state" *ngIf="availableCourses.length === 0">
+      <p>Congratulations! You are enrolled in all available courses on the platform.</p>
+    </div>
+  </div>
+
+</div>

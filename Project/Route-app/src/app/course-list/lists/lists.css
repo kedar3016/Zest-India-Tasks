@@ -1,0 +1,109 @@
+.course-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 30px;
+    max-width: 1400px;
+    margin: auto;
+}
+.filter-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto 20px;
+    padding: 0 20px;
+}
+
+app-filter {
+    width: 100%;
+    max-width: 700px;
+}
+/* 
+.sub-course-list {
+    background: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.sub-course-list:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.15);
+}
+
+.course-image {
+    width: 100%;
+    height: 180px;
+    background: #f8fafc;
+}
+
+.course-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 20px;
+}
+
+.course-name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1e293b;
+    padding: 15px 20px 8px;
+}
+
+.course-duration,
+.fee,
+.seats {
+    padding: 6px 20px;
+    color: #64748b;
+    font-size: 15px;
+}
+
+.course-duration::before {
+    content: "⏳ ";
+}
+
+.fee::before {
+    content: "💰 ₹";
+    font-weight: bold;
+}
+
+.seats::before {
+    content: "👨‍🎓 Seats: ";
+    font-weight: bold;
+}
+
+.fee {
+    color: #2563eb;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.seats {
+    margin-bottom: 15px;
+}
+
+.sub-course-list::after {
+    content: "Enroll Now";
+    display: block;
+    text-align: center;
+    background: #2563eb;
+    color: white;
+    padding: 12px;
+    font-weight: 600;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.sub-course-list:hover::after {
+    background: #1d4ed8;
+}
+
+@media (max-width: 768px) {
+    .course-list {
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+} */

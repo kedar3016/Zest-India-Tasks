@@ -7,4 +7,16 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
   templateUrl: './top-menu.html',
   styleUrl: './top-menu.css',
 })
-export class TopMenu {}
+export class TopMenu {
+  isLoggedin():boolean{
+    return localStorage.getItem('token') != null;
+  }
+  logout(){
+      localStorage.removeItem('token');
+      localStorage.removeItem('role');
+  }
+  isAdmin(): boolean
+{
+   return localStorage.getItem('role') === 'Admin';
+}
+}

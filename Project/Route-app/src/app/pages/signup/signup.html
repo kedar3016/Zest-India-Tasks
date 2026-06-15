@@ -1,0 +1,72 @@
+<section class="auth-page">
+    <div class="auth-content">
+        <span class="section-label">Join Proacademy</span>
+        <h1>Create your student account</h1>
+        <p>
+            Register once and start exploring demo classes, course recommendations,
+            batch details, and practical learning resources.
+        </p>
+
+        <div class="auth-points">
+            <div>
+                <h3>Free Demo Access</h3>
+                <p>Book a demo and understand the course structure before joining.</p>
+            </div>
+
+            <div>
+                <h3>Course Guidance</h3>
+                <p>Get help choosing the right stack based on your learning goal.</p>
+            </div>
+        </div>
+    </div>
+
+    <form class="auth-form" [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+        <h2>Sign Up</h2>
+
+        <label for="name">Full Name</label>
+        <input id="name" type="text" placeholder="Enter your name" formControlName="name">
+        <small class="error-message" *ngIf="name?.touched && name?.hasError('required')">
+            Full name is required.
+        </small>
+        <small class="error-message" *ngIf="name?.touched && name?.hasError('minlength')">
+            Name must be at least 3 characters.
+        </small>
+
+        <label for="email">Email Address</label>
+        <input id="email" type="email" placeholder="Enter your email" formControlName="email">
+        <small class="error-message" *ngIf="email?.touched && email?.hasError('required')">
+            Email address is required.
+        </small>
+        <small class="error-message" *ngIf="email?.touched && email?.hasError('email')">
+            Please enter a valid email address.
+        </small>
+
+        <label for="phone">Mobile Number</label>
+        <input id="phone" type="tel" placeholder="Enter mobile number" formControlName="phone">
+        <small class="error-message" *ngIf="phone?.touched && phone?.hasError('required')">
+            Mobile number is required.
+        </small>
+        <small class="error-message" *ngIf="phone?.touched && phone?.hasError('pattern')">
+            Mobile number must be 10 digits.
+        </small>
+
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="Create a password" formControlName="password">
+        <small class="error-message" *ngIf="password?.touched && password?.hasError('required')">
+            Password is required.
+        </small>
+        <small class="error-message" *ngIf="password?.touched && password?.hasError('minlength')">
+            Password must be at least 8 characters.
+        </small>
+        <small class="error-message" *ngIf="password?.touched && password?.hasError('passwordStrength')">
+            Use uppercase, lowercase, number, and special character.
+        </small>
+
+        <button type="submit" [disabled]="signupForm.invalid">Create Account</button>
+
+        <p class="auth-switch">
+            Already have an account?
+            <a routerLink="/login">Login here</a>
+        </p>
+    </form>
+</section>

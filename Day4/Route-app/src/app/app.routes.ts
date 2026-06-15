@@ -6,7 +6,10 @@ import { Login } from "./pages/login/login";
 import { Register } from "./pages/register/register";
 import { Signup } from "./pages/signup/signup";
 import { CourseList } from "./course-list/course-list";
-
+import { CourseDetail } from "./course-list/course-detail/course-detail";
+import { AddCourse } from "./add-course/add-course";
+import { authGuard } from "./guards/auth.guard";
+import { adminGuard } from "./guards/admin.guard";
 
 export const routes:Routes=[
 
@@ -37,7 +40,17 @@ export const routes:Routes=[
   },
   {
     path:'courses',
-    component: CourseList
+    component: CourseList,
+    canActivate: [authGuard]
+  },
+  {
+    path:'courses/:id',
+    loadComponent:() => import('./course-list/course-detail/course-detail').then(m => m.CourseDetail)
+  },
+  {
+    path:'add-course',
+    component: AddCourse,
+    canActivate: [adminGuard]
   },
   {
     path:'**',

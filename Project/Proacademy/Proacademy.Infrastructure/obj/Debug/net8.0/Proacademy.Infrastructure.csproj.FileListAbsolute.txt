@@ -1,0 +1,39 @@
+E:\Zest India\Dot Net\Pratice\ProacademyAPI\Proacademy\Proacademy.Infrastructure\bin\Debug\net8.0\Proacademy.Infrastructure.deps.json
+E:\Zest India\Dot Net\Pratice\ProacademyAPI\Proacademy\Proacademy.Infrastructure\bin\Debug\net8.0\Proacademy.Infrastructure.runtimeconfig.json
+E:\Zest India\Dot Net\Pratice\ProacademyAPI\Proacademy\Proacademy.Infrastructure\bin\Debug\net8.0\Proacademy.Infrastructure.dll
+E:\Zest India\Dot Net\Pratice\ProacademyAPI\Proacademy\Proacademy.Infrastructure\bin\Debug\net8.0\Proacademy.Infrastructure.pdb
+E:\Zest India\Dot Net\Pratice\ProacademyAPI\Proacademy\Proacademy.Infrastructure\bin\Debug\net8.0\Proacademy.Application.dll
+E:\Zest India\Dot Net\Pratice\ProacademyAPI\Proacademy\Proacademy.Infrastructure\bin\Debug\net8.0\Proacademy.Domain.dll
+E:\Zest India\Dot Net\Pratice\ProacademyAPI\Proacademy\Proacademy.Infrastructure\bin\Debug\net8.0\Proacademy.Application.pdb
+E:\Zest India\Dot Net\Pratice\ProacademyAPI\Proacademy\Proacademy.Infrastructure\bin\Debug\net8.0\Proacademy.Domain.pdb
+E:\Zest India\Dot Net\Pratice\ProacademyAPI\Proacademy\Proacademy.Infrastructure\obj\Debug\net8.0\Proacademy.Infrastructure.csproj.AssemblyReference.cache
+E:\Zest India\Dot Net\Pratice\ProacademyAPI\Proacademy\Proacademy.Infrastructure\obj\Debug\net8.0\Proacademy.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Zest India\Dot Net\Pratice\ProacademyAPI\Proacademy\Proacademy.Infrastructure\obj\Debug\net8.0\Proacademy.Infrastructure.AssemblyInfoInputs.cache
+E:\Zest India\Dot Net\Pratice\ProacademyAPI\Proacademy\Proacademy.Infrastructure\obj\Debug\net8.0\Proacademy.Infrastructure.AssemblyInfo.cs
+E:\Zest India\Dot Net\Pratice\ProacademyAPI\Proacademy\Proacademy.Infrastructure\obj\Debug\net8.0\Proacademy.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Zest India\Dot Net\Pratice\ProacademyAPI\Proacademy\Proacademy.Infrastructure\obj\Debug\net8.0\Proacade.697606EB.Up2Date
+E:\Zest India\Dot Net\Pratice\ProacademyAPI\Proacademy\Proacademy.Infrastructure\obj\Debug\net8.0\Proacademy.Infrastructure.dll
+E:\Zest India\Dot Net\Pratice\ProacademyAPI\Proacademy\Proacademy.Infrastructure\obj\Debug\net8.0\refint\Proacademy.Infrastructure.dll
+E:\Zest India\Dot Net\Pratice\ProacademyAPI\Proacademy\Proacademy.Infrastructure\obj\Debug\net8.0\Proacademy.Infrastructure.pdb
+E:\Zest India\Dot Net\Pratice\ProacademyAPI\Proacademy\Proacademy.Infrastructure\obj\Debug\net8.0\Proacademy.Infrastructure.genruntimeconfig.cache
+E:\Zest India\Dot Net\Pratice\ProacademyAPI\Proacademy\Proacademy.Infrastructure\obj\Debug\net8.0\ref\Proacademy.Infrastructure.dll
+E:\Zest India\Training\Project\Proacademy\Proacademy.Infrastructure\bin\Debug\net8.0\Proacademy.Infrastructure.deps.json
+E:\Zest India\Training\Project\Proacademy\Proacademy.Infrastructure\bin\Debug\net8.0\Proacademy.Infrastructure.runtimeconfig.json
+E:\Zest India\Training\Project\Proacademy\Proacademy.Infrastructure\bin\Debug\net8.0\Proacademy.Infrastructure.dll
+E:\Zest India\Training\Project\Proacademy\Proacademy.Infrastructure\bin\Debug\net8.0\Proacademy.Infrastructure.pdb
+E:\Zest India\Training\Project\Proacademy\Proacademy.Infrastructure\bin\Debug\net8.0\Proacademy.Application.dll
+E:\Zest India\Training\Project\Proacademy\Proacademy.Infrastructure\bin\Debug\net8.0\Proacademy.Domain.dll
+E:\Zest India\Training\Project\Proacademy\Proacademy.Infrastructure\bin\Debug\net8.0\Proacademy.Application.pdb
+E:\Zest India\Training\Project\Proacademy\Proacademy.Infrastructure\bin\Debug\net8.0\Proacademy.Domain.pdb
+E:\Zest India\Training\Project\Proacademy\Proacademy.Infrastructure\obj\Debug\net8.0\Proacademy.Infrastructure.csproj.AssemblyReference.cache
+E:\Zest India\Training\Project\Proacademy\Proacademy.Infrastructure\obj\Debug\net8.0\Proacademy.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Zest India\Training\Project\Proacademy\Proacademy.Infrastructure\obj\Debug\net8.0\Proacademy.Infrastructure.AssemblyInfoInputs.cache
+E:\Zest India\Training\Project\Proacademy\Proacademy.Infrastructure\obj\Debug\net8.0\Proacademy.Infrastructure.AssemblyInfo.cs
+E:\Zest India\Training\Project\Proacademy\Proacademy.Infrastructure\obj\Debug\net8.0\Proacademy.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Zest India\Training\Project\Proacademy\Proacademy.Infrastructure\obj\Debug\net8.0\Proacademy.Infrastructure.sourcelink.json
+E:\Zest India\Training\Project\Proacademy\Proacademy.Infrastructure\obj\Debug\net8.0\Proacade.697606EB.Up2Date
+E:\Zest India\Training\Project\Proacademy\Proacademy.Infrastructure\obj\Debug\net8.0\Proacademy.Infrastructure.dll
+E:\Zest India\Training\Project\Proacademy\Proacademy.Infrastructure\obj\Debug\net8.0\refint\Proacademy.Infrastructure.dll
+E:\Zest India\Training\Project\Proacademy\Proacademy.Infrastructure\obj\Debug\net8.0\Proacademy.Infrastructure.pdb
+E:\Zest India\Training\Project\Proacademy\Proacademy.Infrastructure\obj\Debug\net8.0\Proacademy.Infrastructure.genruntimeconfig.cache
+E:\Zest India\Training\Project\Proacademy\Proacademy.Infrastructure\obj\Debug\net8.0\ref\Proacademy.Infrastructure.dll

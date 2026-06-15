@@ -1,0 +1,146 @@
+.auth-page {
+    display: grid;
+    grid-template-columns: 1fr 0.85fr;
+    align-items: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 50px;
+}
+
+.section-label {
+    display: inline-block;
+    color: #2563eb;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.auth-content h1 {
+    font-size: 46px;
+    font-weight: 700;
+    color: #1e293b;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+
+.auth-content p {
+    color: #64748b;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.auth-points {
+    display: grid;
+    gap: 18px;
+    margin-top: 30px;
+}
+
+.auth-points div,
+.auth-form {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.auth-points div {
+    padding: 22px;
+}
+
+.auth-points h3 {
+    color: #1e293b;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.auth-points p {
+    font-size: 15px;
+    margin: 0;
+}
+
+.auth-form {
+    display: grid;
+    gap: 14px;
+    padding: 32px;
+}
+
+.auth-form h2 {
+    color: #1e293b;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.auth-form label {
+    color: #334155;
+    font-weight: 600;
+}
+
+.auth-form input {
+    border: 1px solid #dbeafe;
+    border-radius: 10px;
+    padding: 14px 16px;
+    font-family: inherit;
+    font-size: 15px;
+    outline: none;
+}
+
+.auth-form input:focus {
+    border-color: #2563eb;
+}
+
+.auth-form input.ng-invalid.ng-touched {
+    border-color: #dc2626;
+}
+
+.error-message {
+    color: #dc2626;
+    font-size: 13px;
+    line-height: 1.4;
+    margin-top: -8px;
+}
+
+.auth-form button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 8px;
+}
+
+.auth-form button:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+.auth-form button:disabled {
+    background: #94a3b8;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.auth-switch {
+    color: #64748b;
+    text-align: center;
+    margin: 8px 0 0;
+}
+
+.auth-switch a {
+    color: #2563eb;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+@media (max-width: 900px) {
+    .auth-page {
+        grid-template-columns: 1fr;
+        padding: 50px 25px;
+    }
+
+    .auth-content h1 {
+        font-size: 36px;
+    }
+}
